@@ -2,6 +2,10 @@
     --main-color: #000085;
 }
 
+body {
+    font-family: "Roboto", sans-serif;
+}
+
 .relative {
     position: relative;
 }
