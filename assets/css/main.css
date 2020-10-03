@@ -1,6 +1,6 @@
 :root {
     /* --main-color: #000085; */
-    --main-color: #32629b;
+    --main-color: #1c4d6d;
     --sec-color: #000841;
 }
 
@@ -56,26 +56,21 @@ body {
     text-decoration: none;
 }
 
-@media (min-width: 1200px) {
-    .top-bar .owl-theme .owl-nav {
-        position: absolute;
-        top: -24px;
-        right: 30%;
-        font-size: 35px;
-    }
-    .top-bar .owl-carousel .owl-nav button.owl-next,
-    .top-bar .owl-carousel .owl-nav button.owl-prev {
-        padding: 0 10px !important;
-        margin-left: 0;
-        margin-right: 0;
-    }
+.top-bar .owl-theme .owl-nav {
+    position: absolute;
+    top: 0px;
+    left: -10%;
+    font-size: 35px;
+}
+
+.top-bar .owl-carousel .owl-nav button.owl-next,
+.top-bar .owl-carousel .owl-nav button.owl-prev {
+    padding: 0 10px !important;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 @media (max-width: 1199px) {
-    .top-bar .owl-theme .owl-nav {
-        margin-top: -20px;
-        font-size: 35px;
-    }
     .top-bar .owl-theme .item {
         text-align: center;
     }
@@ -183,6 +178,10 @@ i.fab:hover {
 .navbar li.nav-item.active a {
     color: var(--sec-color);
     font-weight: 500;
+}
+
+.dropdown-toggle::after {
+    color: var(--sec-color);
 }
 
 .form-inline {
@@ -461,10 +460,10 @@ footer a:hover {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--sec-color);
+    background: var(--main-color);
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: var(--main-color);
+    background: var(--sec-color);
 }

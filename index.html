@@ -84,8 +84,15 @@
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="journals.html">Journals</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Journals
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Journal1</a>
+                                <a class="dropdown-item" href="#">Journal2</a>
+                                <a class="dropdown-item" href="#">Journal3</a>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="Research-topics.html">Research topics</a>
@@ -94,7 +101,7 @@
                             <a class="nav-link" href="articles.html">Articles</a>
                         </li>
                     </ul>
-                    <form class="form-inline my-2 my-lg-0 relative">
+                    <form action="search.html" method="get" action="search.html" method="get" class="form-inline my-2 my-lg-0 relative">
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn my-2 my-sm-0 absolute" type="submit"><i class="fas fa-search"></i></button>
                     </form>
@@ -582,10 +589,10 @@
                     <div class="col-md-4 mb-3">
                         <div class="card">
                             <a href="#">
-                                <img src="assets/imgs/single_post_featured_img.jpg" class="card-img-top" alt="journal-cover">
+                                <img src="assets/imgs/platform.jpeg" class="card-img-top" alt="journal-cover">
                                 <div class="card-body">
-                                    <h5 class="card-title">German Journal of Veterinary Research</h5>
-                                    <p class="card-text">An open access journal in all veterinary science fields</p>
+                                    <h5 class="card-title">GMPC thesis & opinions platform</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
                                 </div>
                             </a>
                         </div>
@@ -593,10 +600,10 @@
                     <div class="col-md-4 mb-3">
                         <div class="card">
                             <a href="#">
-                                <img src="assets/imgs/single_post_featured_img.jpg" class="card-img-top" alt="journal-cover">
+                                <img src="assets/imgs/vet.jpeg" class="card-img-top" alt="journal-cover">
                                 <div class="card-body">
-                                    <h5 class="card-title">German Journal of Microbiology</h5>
-                                    <p class="card-text">Comming Soon</p>
+                                    <h5 class="card-title">German Journal of Veterinary Research</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
                                 </div>
                             </a>
                         </div>
@@ -604,9 +611,9 @@
                     <div class="col-md-4">
                         <div class="card">
                             <a href="#">
-                                <img src="assets/imgs/single_post_featured_img.jpg" class="card-img-top" alt="journal-cover">
+                                <img src="assets/imgs/micro.jpeg" class="card-img-top" alt="journal-cover">
                                 <div class="card-body">
-                                    <h5 class="card-title">German Journal of Biology</h5>
+                                    <h5 class="card-title">German Journal of Microbiology</h5>
                                     <p class="card-text">Comming Soon</p>
                                 </div>
                             </a>
@@ -669,10 +676,16 @@
     </footer>
     <!-- footer end -->
     <script src=" assets/js/jquery-3.3.1.min.js "></script>
-    <script src="assets/js/jquery.countTo.min.js"></script>
+    <!-- <script src="assets/js/jquery.countTo.min.js"></script> -->
     <script src=" assets/js/bootstrap.min.js "></script>
     <script src=" assets/js/owl.carousel.min.js "></script>
     <script src=" assets/js/main.js "></script>
+    <!-- <script>
+        $(document).ready(function() {
+
+            $('.timer').countTo();
+        });
+    </script> -->
 </body>
 
 </html>
