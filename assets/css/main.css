@@ -304,6 +304,18 @@ i.fab:hover {
     margin: 0px 20px;
 }
 
+.desc .nav-tabs .nav-link.active {
+    color: var(--main-color) !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.desc .nav-tabs .nav-link {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+
 
 /* desc end */
 
@@ -312,10 +324,6 @@ i.fab:hover {
 
 .featured {
     padding: 40px 0px;
-}
-
-.featured .nav {
-    /* width: fit-content; */
 }
 
 @media (min-width: 576px) {
