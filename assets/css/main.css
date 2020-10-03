@@ -37,6 +37,12 @@ body {
     color: rgba(220, 220, 220, 0.479);
 }
 
+@media (max-width: 576px) {
+    .top-bar p.latest::after {
+        padding-left: 2px;
+    }
+}
+
 .top-bar a.latest {
     display: block;
     color: #fff;
@@ -231,7 +237,6 @@ i.fab:hover {
 
 .flip-card {
     background-color: transparent;
-    width: 300px;
     min-height: 300px;
     perspective: 1000px;
 }
@@ -448,6 +453,8 @@ footer a:hover {
 
 ::-webkit-scrollbar-thumb {
     background: #000085e0;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {

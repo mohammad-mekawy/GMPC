@@ -31,7 +31,7 @@ $(document).ready(function() {
         autoplay: true,
         nav: true
     });
-
+    $('.timer').countTo();
     // var owl2 = $('.owl-two');
     // owl2.owlCarousel({
     //     items: 1,
