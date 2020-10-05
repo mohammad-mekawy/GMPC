@@ -457,7 +457,6 @@ body {
 }
 
 .journals .card:hover a {
-    color: var(--sec-color);
     text-decoration: none;
 }
 
