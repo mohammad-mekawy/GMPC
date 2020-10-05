@@ -1,7 +1,10 @@
 :root {
     /* --main-color: #000085; */
-    --main-color: #c2c3c5;
-    --sec-color: #000841;
+    --main-color: #363b40;
+    /* --sec-color: #ed1c24; */
+    /* --sec-color: #1e5051; */
+    --sec-color: #00c9d0;
+    /* --sec-color: #6b41ef; */
 }
 
 body {
@@ -26,6 +29,7 @@ body {
     background-color: var(--main-color);
     overflow: hidden;
     padding: 5px 0px;
+    color: #fff;
 }
 
 .top-bar p.latest {
@@ -46,7 +50,7 @@ body {
 
 .top-bar a.latest {
     display: block;
-    color: #000;
+    color: #fff;
     margin-bottom: 0rem;
     padding-bottom: 5px;
 }
@@ -230,7 +234,7 @@ body {
 }
 
 .dropdown-toggle::after {
-    color: var(--sec-color);
+    vertical-align: middle;
 }
 
 .form-inline {
@@ -403,7 +407,7 @@ body {
 }
 
 .featured .card a {
-    color: var(--sec-color);
+    color: #000;
 }
 
 .featured .card p a {
@@ -466,11 +470,12 @@ body {
 footer {
     padding: 40px 0 0;
     background-color: var(--main-color);
+    color: #fff;
 }
 
 footer a,
 footer a:hover {
-    color: #000;
+    color: #fff;
     margin: 2px;
 }
 
@@ -480,7 +485,7 @@ footer .social i {
 
 .copyright p {
     margin-bottom: 0;
-    border-top: 1px solid var(--sec-color);
+    border-top: 1px solid gainsboro;
 }
 
 
