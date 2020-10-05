@@ -442,6 +442,11 @@ body {
     border-left: 3px solid var(--sec-color);
 }
 
+.journals .card {
+    width: 75%;
+    margin: auto;
+}
+
 .journals .card a {
     color: #000;
     text-decoration: none;
@@ -463,20 +468,10 @@ footer {
     background-color: var(--main-color);
 }
 
-footer .head {
-    background-color: #f0f0f069;
-    border-left: 3px solid var(--sec-color);
-    font-weight: 400;
-}
-
-footer .list-group-item {
-    background-color: transparent;
-    padding: 5px 20px;
-}
-
 footer a,
 footer a:hover {
     color: #000;
+    margin: 2px;
 }
 
 footer .social i {
