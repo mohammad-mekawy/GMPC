@@ -2,19 +2,20 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>GMPC</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
-    <link rel="stylesheet" type="text/css" media="all" href="assets/css/main.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="assets/css/main.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <!-- <link rel="shortcut icon" href="assets/imgs/favicon.png" type="image/x-icon"> -->
     <!-- <link rel="icon" href="assets/imgs/favicon.png" type="image/x-icon"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300;1,700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
 </head>
 
 <body>
@@ -22,13 +23,15 @@
         <div class="top-bar">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 order-md-2 d-flex justify-content-md-end align-items-center justify-content-between">
+                    <div class="col-md-4 order-md-2 d-flex justify-content-md-end align-items-center justify-content-center">
                         <div class="social">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+                            <a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+                            <a href="#" title="Publons"><i class="fas fa-parking"></i></a>
                         </div>
-                        <!-- <form action="" class="d-inline ">
+                        <!-- <form action="" class="d-inline">
                             <input type="search" name="" id="">
                             <button class=" search"><i class="fas fa-search"></i></button>
                         </form> -->
@@ -60,25 +63,27 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
-        <div class="logo text-center animate__animated animate__zoomIn">
+        <div class="logo text-center">
             <div class="container">
-                <a href="index.html"><img src="assets/imgs/logo.jpg" alt="logo"></a>
+                <div class="animate__animated animate__zoomIn">
+                    <a href="index.html"><img src="assets/imgs/Final-logoo-web transparent.png" alt="logo" /></a>
+                    <h1 class="">The German Multidisciplinary Publishing Center</h1>
+                </div>
             </div>
         </div>
         <nav class="navbar navbar-expand-lg navbar-ligh bg-light">
             <div class="container">
-                <button class="navbar-toggler m-auto" id="tog-icon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button class=" navbar-toggler m-auto tog-icon" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home </a>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about.html">About</a>
@@ -88,23 +93,22 @@
                                 Journals
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Journal1</a>
-                                <a class="dropdown-item" href="#">Journal2</a>
-                                <a class="dropdown-item" href="#">Journal3</a>
+                                <a class="dropdown-item" href="GMPC-Thesis-&-Opinions-Platform.html">GMPC Thesis &
+                                    Opinions Platform</a>
+                                <a class="dropdown-item" href="Journal-vet.html">German Journal Of Veterinary
+                                    Research</a>
+                                <a class="dropdown-item">German Journal Of Microbiology <em>(comming soon)</em></a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Research-topics.html">Research topics</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="articles.html">Articles</a>
+                            <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
-                    <form action="search.html" method="get" class="form-inline my-2 my-lg-0 relative">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn my-2 my-sm-0 absolute" type="submit"><i class="fas fa-search"></i></button>
-
-
+                    <form action="search.html" method="get" action="search.html" method="get" class="form-inline my-2 my-lg-0 relative">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn my-2 my-sm-0 absolute" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
                     </form>
                 </div>
             </div>
@@ -115,48 +119,30 @@
             <h2 class="text-center">Search Results</h2>
         </div>
     </main>
-
     <!-- footer start -->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-md-3 mb-4">
-                    <img src="assets/imgs/logo.jpg" class="logo" alt="logo">
+                <!-- <div class="col-md-3 mb-4"> -->
+                <!-- <h4 class="head pt-1 pb-2 pl-2">About GMPC</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod aut maiores aspernatur repellat asperiores deleniti ex perferendis est nulla.</p> -->
+                <!-- </div> -->
+                <div class="col-md-4 mb-4 f-nav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="articles.html">Contact Us</a>
                 </div>
-                <div class="col-md-3 mb-4">
-                    <h4 class="head pt-1 pb-2 pl-2">About GMPC</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod aut maiores aspernatur repellat asperiores deleniti ex perferendis est nulla.</p>
-                    <h4 class="head pt-1 pb-2 pl-2">Get In Touch With Us</h4>
+                <div class="col-md-4 mb-4 text-center">
+                    <Address> <strong>Address:</strong> GMPC, Regensburg, Germany</Address>
+                </div>
+                <div class="col-md-4 mb-4 text-center">
                     <div class="social">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter-square"></i></a>
+                        <a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="ResearchGate"><i class="fab fa-researchgate"></i></a>
+                        <a href="#" title="Publons"><i class="fas fa-parking"></i></a>
                     </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <h4 class="head pt-1 pb-2 pl-2">Useful Links</h4>
-                    <div class="row">
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="index.html">Home</a></li>
-                            <li class="list-group-item"><a href="about.html">About</a></li>
-                            <li class="list-group-item"><a href="#">Sumbit</a></li>
-                        </ul>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="journals.html">Journals</a></li>
-                            <li class="list-group-item"><a href="articles.html">Articles</a></li>
-                            <li class="list-group-item"><a href="Research-topics.html">Researched Topics</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <h4 class="head pt-1 pb-2 pl-2 mb-3">Subscribe</h4>
-                    <form>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-block">Submit</button>
-
-                    </form>
                 </div>
             </div>
             <div class="copyright text-center">
@@ -165,10 +151,17 @@
         </div>
     </footer>
     <!-- footer end -->
-    <script src=" assets/js/jquery-3.3.1.min.js "></script>
-    <script src=" assets/js/bootstrap.min.js "></script>
-    <script src=" assets/js/owl.carousel.min.js "></script>
-    <script src=" assets/js/main.js "></script>
+    <script src=" assets/js/jquery-3.3.1.min.js"></script>
+    <!-- <script src="assets/js/jquery.countTo.min.js"></script> -->
+    <script src=" assets/js/bootstrap.min.js"></script>
+    <script src=" assets/js/owl.carousel.min.js"></script>
+    <script src=" assets/js/main.js"></script>
+    <!-- <script>
+        $(document).ready(function() {
+
+            $('.timer').countTo();
+        });
+    </script> -->
 </body>
 
 </html>

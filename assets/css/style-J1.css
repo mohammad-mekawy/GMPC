@@ -1,0 +1,27 @@
+.navbar li.nav-item a {
+    font-size: 15px;
+}
+
+.form-inline .form-control {
+    height: 36px;
+    width: 140px;
+}
+
+.navbar,
+.bg-light {
+    border-top: 1px solid #e9e9e9;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary {
+    font-size: 15px;
+}
+
+.dropdown-menu {
+    border-radius: 0;
+    border-top: 0px;
+}
+
+.navbar .social i {
+    width: 24px;
+}

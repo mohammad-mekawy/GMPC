@@ -15,7 +15,7 @@ $(document).ready(function() {
         nav: true
     });
 
-    $("#tog-icon").on("click", function() {
+    $(".tog-icon").on("click", function() {
         $(this).find(".fas").toggleClass("fa-times")
     })
 
