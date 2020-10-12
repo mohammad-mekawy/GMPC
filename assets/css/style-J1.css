@@ -2,9 +2,11 @@
     font-size: 15px;
 }
 
-.form-inline .form-control {
-    height: 36px;
-    width: 140px;
+@media (min-width: 992px) {
+    .form-inline .form-control {
+        height: 36px;
+        width: 140px;
+    }
 }
 
 .navbar,
