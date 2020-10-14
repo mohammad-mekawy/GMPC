@@ -187,12 +187,10 @@ body {
 }
 
 .logo {
-    background-image: url(../imgs/main-bg.jpg);
-    background-size: cover;
+    background-image: url(../imgs/bg.jpeg);
+    padding: 90px 0;
     background-attachment: fixed;
-    background-color: #dcdcdce8;
-    background-blend-mode: overlay;
-    padding: 60px 0;
+    background-size: cover;
 }
 
 
@@ -228,7 +226,7 @@ body {
     transition: 500ms ease-in-out;
 }
 
-.navbar li.nav-item.active a {
+.navbar li.nav-item.active a:first-child {
     color: var(--sec-color);
     font-weight: 500;
 }

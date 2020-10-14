@@ -27,3 +27,83 @@
 .navbar .social i {
     width: 24px;
 }
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: transparent;
+}
+
+main {
+    background-image: url(../imgs/bg-overlay.png);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.head {
+    background-color: #f0f0f0;
+    border-left: 3px solid var(--sec-color);
+}
+
+
+/* Athor guidlines start */
+
+.AG .tab-content {
+    border: 1px solid gainsboro;
+    border-top: 0px;
+    margin-bottom: 20px;
+}
+
+.AG .nav-tabs .nav-link.active {
+    color: var(--sec-color) !important;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -1px;
+}
+
+.AG .nav-tabs .nav-link {
+    color: #000;
+}
+
+
+/* Athor guidlines end */
+
+
+/* aside  start*/
+
+.volumes {
+    background-color: gainsboro;
+}
+
+.volumes a {
+    color: var(--sec-color);
+    font-weight: 500;
+}
+
+
+/* .volumes ul li::before {
+    content: "\2022";
+    color: var(--sec-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: 20px;
+} */
+
+.numbers {
+    background-color: gainsboro;
+}
+
+.numbers .counter span {
+    color: #fff;
+    border-radius: 50%;
+    background-color: var(--sec-color);
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+/* aside end */

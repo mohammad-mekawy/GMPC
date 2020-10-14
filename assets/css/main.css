@@ -9,6 +9,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    /* font-family: "eb garamond", serif; */
 }
 
 .relative {
@@ -187,12 +188,10 @@ body {
 }
 
 .logo {
-    background-image: url(../imgs/main-bg.jpg);
-    background-size: cover;
+    background-image: url(../imgs/bg.jpeg);
+    padding: 90px 0;
     background-attachment: fixed;
-    background-color: #dcdcdce8;
-    background-blend-mode: overlay;
-    padding: 60px 0;
+    background-size: cover;
 }
 
 
@@ -356,8 +355,8 @@ body {
 }
 
 .desc .tab-content {
-    background-color: #fff;
     margin: 0px 20px;
+    background-color: #fff;
 }
 
 .desc .nav-tabs .nav-link.active {
