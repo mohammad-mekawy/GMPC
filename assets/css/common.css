@@ -226,7 +226,7 @@ body {
     transition: 500ms ease-in-out;
 }
 
-.navbar li.nav-item.active a:first-child {
+.navbar li.nav-item.active a.active {
     color: var(--sec-color);
     font-weight: 500;
 }
