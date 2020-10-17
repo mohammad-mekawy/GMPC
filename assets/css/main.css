@@ -306,6 +306,13 @@ main {
     height: 350px;
 }
 
+@media (max-width: 1024px) {
+    .desc .vis-con,
+    .desc .mis-con {
+        height: 430px;
+    }
+}
+
 .desc .vis-con img,
 .desc .mis-con img {
     height: 100%;
