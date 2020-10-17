@@ -19,6 +19,12 @@ body {
     position: absolute;
 }
 
+main {
+    background-image: url(../imgs/bg-overlay.png);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
 
 /* header start */
 
@@ -187,9 +193,8 @@ body {
 }
 
 .logo {
-    background-image: url(../imgs/bg.jpeg);
-    padding: 90px 0;
-    background-attachment: fixed;
+    background-image: url(../imgs/bg.jpg);
+    padding: 175px 0;
     background-size: cover;
 }
 

@@ -20,6 +20,12 @@ body {
     position: absolute;
 }
 
+main {
+    background-image: url(../imgs/bg-overlay.png);
+    background-attachment: fixed;
+    background-size: contain;
+}
+
 
 /* header start */
 
@@ -188,9 +194,8 @@ body {
 }
 
 .logo {
-    background-image: url(../imgs/bg.jpeg);
-    padding: 90px 0;
-    background-attachment: fixed;
+    background-image: url(../imgs/bg.jpg);
+    padding: 175px 0;
     background-size: cover;
 }
 
@@ -288,6 +293,29 @@ body {
     background-color: #f0f0f0;
 }
 
+.desc .vis-con,
+.desc .mis-con {
+    height: 350px;
+}
+
+.desc .vis-con img,
+.desc .mis-con img {
+    height: 100%;
+    width: 100%;
+}
+
+.desc .vis-con p,
+.desc .mis-con p {
+    top: 0;
+    background: #0000008c;
+    width: 100%;
+    height: 100%;
+    padding: 20% 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
 
 /* 
 .flip-card {
@@ -350,7 +378,8 @@ body {
     font-size: 20px;
 } */
 
-.nav-tabs {
+
+/* .nav-tabs {
     border: 0px;
 }
 
@@ -369,7 +398,7 @@ body {
     color: #000;
     font-size: 16px;
     font-weight: 500;
-}
+} */
 
 
 /* desc end */
@@ -461,6 +490,44 @@ body {
 
 
 /* journals end */
+
+
+/* about page start*/
+
+.about-page p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about-page img.ab {
+    height: 250px;
+    width: 100%;
+}
+
+.third-pic {
+    background-image: url(../imgs/vision.png);
+    background-size: cover;
+    width: 50%;
+    height: 350px;
+    display: flex;
+    outline: 1px solid #dee2e6;
+    outline-offset: 5px;
+    outline-style: auto;
+}
+
+.third-pic h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    background: #0000008c;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: auto;
+    border-radius: 35px;
+}
+
+
+/* about page end */
 
 
 /* footer start */
