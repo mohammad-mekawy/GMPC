@@ -198,6 +198,14 @@ main {
     background-size: cover;
 }
 
+@media (max-width: 992px) {
+    .logo {
+        padding: 69px 0;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
 
 /* nav start */
 
