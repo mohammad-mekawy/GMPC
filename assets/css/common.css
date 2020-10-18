@@ -7,6 +7,10 @@
     /* --sec-color: #6b41ef; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
 }
@@ -23,6 +27,30 @@ main {
     background-image: url(../imgs/bg-overlay.png);
     background-attachment: fixed;
     background-size: contain;
+}
+
+.effect3 {
+    position: relative;
+}
+
+.effect3:before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
 }
 
 
@@ -306,6 +334,12 @@ footer a,
 footer a:hover {
     color: #fff;
     margin: 2px;
+}
+
+@media (max-width: 992px) {
+    footer .f-nav {
+        text-align: center;
+    }
 }
 
 footer .social i {

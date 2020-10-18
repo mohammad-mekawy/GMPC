@@ -7,6 +7,10 @@
     /* --sec-color: #6b41ef; */
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     /* font-family: "eb garamond", serif; */
@@ -24,6 +28,30 @@ main {
     background-image: url(../imgs/bg-overlay.png);
     background-attachment: fixed;
     background-size: contain;
+}
+
+.effect3 {
+    position: relative;
+}
+
+.effect3:before {
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width: 300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
 }
 
 
@@ -523,7 +551,7 @@ main {
 }
 
 .about-page img.ab {
-    height: 250px;
+    /* height: 250px; */
     width: 100%;
 }
 
@@ -553,6 +581,32 @@ main {
 /* about page end */
 
 
+/* contact page stert */
+
+.contact-page .form-group {
+    box-shadow: 5px 5px 4px 1px gainsboro;
+}
+
+.contact-page .form-control:focus {
+    background-color: #fff;
+    border-color: transparent;
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem #00c9d052;
+}
+
+.contact-page a {
+    color: var(--sec-color);
+}
+
+.contact-page .btn-primary {
+    background-color: var(--sec-color);
+    border-color: var(--sec-color);
+}
+
+
+/* contact page end */
+
+
 /* footer start */
 
 footer {
@@ -565,6 +619,12 @@ footer a,
 footer a:hover {
     color: #fff;
     margin: 2px;
+}
+
+@media (max-width: 992px) {
+    footer .f-nav {
+        text-align: center;
+    }
 }
 
 footer .social i {

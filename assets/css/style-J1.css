@@ -67,6 +67,87 @@
 /* Athor guidlines end */
 
 
+/* Research topics start */
+
+.RT .card {
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.RT .card img {
+    height: 250px;
+    transition: 500ms;
+}
+
+.RT .card:hover img {
+    transform: scale(1.1);
+}
+
+.RT .btn-primary {
+    background-color: var(--sec-color);
+    border-color: var(--sec-color);
+}
+
+
+/* Research topics end */
+
+
+/* articles start */
+
+.articles .tab-content {
+    border: 1px solid gainsboro;
+    border-top: 0px;
+    margin-bottom: 20px;
+}
+
+.articles .nav-tabs .nav-link.active {
+    color: var(--sec-color) !important;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -1px;
+}
+
+.articles .nav-tabs .nav-link {
+    color: #000;
+    transition: 500ms ease-in-out;
+}
+
+.articles .nav-tabs .nav-link:hover {
+    color: var(--sec-color);
+}
+
+.articles article .tab-content h5 a {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.articles article .tab-content p {
+    margin-bottom: 0 !important;
+}
+
+.articles article .tab-content p a {
+    color: var(--sec-color);
+    font-style: italic;
+}
+
+.articles article .tab-content .views {
+    color: var(--sec-color);
+    font-weight: 700;
+}
+
+
+/* articles end */
+
+
+/* resources page start */
+
+.resources .col-md-9 a {
+    color: var(--sec-color);
+}
+
+
+/* resources page end */
+
+
 /* aside  start*/
 
 .volumes {
@@ -94,10 +175,10 @@
 
 .numbers .counter span {
     color: #fff;
-    border-radius: 50%;
+    border-radius: 0 5px 0 5px;
     background-color: var(--sec-color);
-    width: 40px;
-    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
     display: inline-block;
     padding: 5px;
     margin-bottom: 5px;
@@ -110,27 +191,3 @@
 
 
 /* =============== */
-
-.effect3 {
-    position: relative;
-}
-
-.effect3:before {
-    z-index: -1;
-    position: absolute;
-    content: "";
-    bottom: 15px;
-    left: 10px;
-    width: 50%;
-    top: 80%;
-    max-width: 300px;
-    background: #777;
-    -webkit-box-shadow: 0 15px 10px #777;
-    -moz-box-shadow: 0 15px 10px #777;
-    box-shadow: 0 15px 10px #777;
-    -webkit-transform: rotate(-3deg);
-    -moz-transform: rotate(-3deg);
-    -o-transform: rotate(-3deg);
-    -ms-transform: rotate(-3deg);
-    transform: rotate(-3deg);
-}
