@@ -475,6 +475,8 @@ main {
 
 .featured .entry {
     overflow: hidden;
+    /* width: 90%; */
+    /* margin: auto; */
 }
 
 .featured .card .card-img-top {
@@ -625,6 +627,14 @@ footer a:hover {
     footer .f-nav {
         text-align: center;
     }
+}
+
+footer address {
+    font-size: 12px;
+}
+
+footer address strong {
+    font-size: 14px;
 }
 
 footer .social i {

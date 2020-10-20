@@ -18,6 +18,9 @@ $(document).ready(function() {
     $(".tog-icon").on("click", function() {
         $(this).find(".fas").toggleClass("fa-times")
     })
+    $(".vol-btn").on("click", function() {
+        $(this).find(".fas").toggleClass("fa-plus")
+    })
 
     var owl2 = $('.owl-two');
     owl2.owlCarousel({

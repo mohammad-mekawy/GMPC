@@ -342,6 +342,14 @@ footer a:hover {
     }
 }
 
+footer address {
+    font-size: 12px;
+}
+
+footer address strong {
+    font-size: 14px;
+}
+
 footer .social i {
     font-size: 40px;
 }
