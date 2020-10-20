@@ -68,7 +68,7 @@ main {
 }
 
 .top-bar p.latest {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .top-bar p.latest::after {
@@ -96,7 +96,7 @@ main {
 
 .top-bar .owl-theme .owl-nav {
     position: absolute;
-    top: 0px;
+    top: -5px;
     left: -10%;
     font-size: 35px;
 }
@@ -272,7 +272,7 @@ main {
 
 .navbar li.nav-item a {
     color: #000;
-    font-size: 20px;
+    font-size: 15px;
     transition: 500ms ease-in-out;
 }
 
@@ -291,7 +291,7 @@ main {
 
 .form-inline .form-control {
     background: #f0f0f0;
-    height: 55px;
+    height: 47px;
     border: 0px;
     border-radius: 0px;
     margin-top: -2px;
