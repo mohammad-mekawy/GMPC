@@ -217,31 +217,6 @@ main {
 
 /* top bar end */
 
-.logo img {
-    width: 160px;
-}
-
-.logo {
-    background-image: url(../imgs/bg.jpg);
-    padding: 175px 0;
-    background-size: cover;
-}
-
-@media (max-width: 576px) {
-    .logo {
-        padding: 69px 0;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-}
-
-@media (min-width: 576px) and( max-width: 992px) {
-    .logo {
-        padding: 105px 0;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-}
 
 
 /* nav start */
