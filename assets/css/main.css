@@ -24,6 +24,10 @@ body {
     position: absolute;
 }
 
+.main-color {
+    color: var(--sec-color);
+}
+
 main {
     background-image: url(../imgs/bg-overlay.png);
     background-attachment: fixed;
@@ -216,7 +220,6 @@ main {
 
 
 /* top bar end */
-
 
 
 /* nav start */
@@ -450,8 +453,6 @@ main {
 
 .featured .entry {
     overflow: hidden;
-    /* width: 90%; */
-    /* margin: auto; */
 }
 
 .featured .card .card-img-top {
@@ -469,6 +470,9 @@ main {
 .featured .card p a {
     text-decoration: none;
     letter-spacing: 2px;
+}
+.featured .card-text{
+    margin-bottom: 0;
 }
 
 .featured .nav-tabs .nav-link {
@@ -503,8 +507,16 @@ main {
 }
 
 .journals .card {
-    width: 75%;
+    width: 70%;
     margin: auto;
+    transition: 500ms;
+    box-shadow: -4px 5px 4px 2px #333;
+    transform: translateY(-5px);
+}
+
+.journals .card:hover {
+    box-shadow: -4px 5px 4px 2px transparent;
+    transform: translateY(0px);
 }
 
 .journals .card a {
@@ -558,6 +570,41 @@ main {
 /* about page end */
 
 
+/* latest-news page start */
+
+
+/* latest-news page end */
+
+.latest-news .card {
+    padding-left: 10px;
+    box-shadow: -1px 5px 4px 2px gainsboro;
+}
+
+
+/* single news start */
+
+main.single-news {
+    background: #f0f0f0;
+}
+
+.single-news article {
+    background-color: #fff;
+    padding: 30px 40px;
+    box-shadow: -1px 5px 4px 2px gainsboro;
+}
+
+.single-news .fa-share-alt-square {
+    font-size: 40px;
+}
+
+.single-news .text-body {
+    font-size: .9rem;
+}
+
+
+/* single news end */
+
+
 /* contact page stert */
 
 .contact-page .form-group {
@@ -568,7 +615,7 @@ main {
     background-color: #fff;
     border-color: transparent;
     outline: 0;
-    box-shadow: 0 0 0 0.1rem #00c9d052;
+    box-shadow: 0 0 0 0.1rem #4d5f5f52;
 }
 
 .contact-page a {

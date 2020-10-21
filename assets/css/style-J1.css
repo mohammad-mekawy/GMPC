@@ -70,8 +70,10 @@
 /* Research topics start */
 
 .RT .card {
-    margin-bottom: 30px;
     overflow: hidden;
+    width: 90%;
+    margin:auto;
+    margin-bottom: 30px;
 }
 .RT .card .card-body{
     padding: 1rem;
@@ -156,6 +158,29 @@
 
 
 /* articles end */
+/* single article start */
+.s-art .fa-share-alt-square {
+    font-size: 40px;
+}
+/* single article end */
+/* issue page start */
+.issue article .article h5 {
+    font-size: 1.05rem;
+}
+.issue article .article h5 a {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.issue article .article p {
+    margin-bottom: 0 !important;
+    font-size: .9rem;
+}
+
+.issue article .article p a {
+    font-style: italic;
+} 
+/* issue page end */
 
 
 /* resources page start */

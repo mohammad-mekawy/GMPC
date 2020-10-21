@@ -22,7 +22,9 @@ body {
 .absolute {
     position: absolute;
 }
-
+.main-color {
+    color: var(--sec-color);
+}
 main {
     background-image: url(../imgs/bg-overlay.png);
     background-attachment: fixed;
@@ -216,6 +218,8 @@ main {
 
 /* top bar end */
 
+
+/* 
 .logo img {
     width: 160px;
 }
@@ -232,7 +236,7 @@ main {
         background-size: contain;
         background-repeat: no-repeat;
     }
-}
+} */
 
 
 /* nav start */
