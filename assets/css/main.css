@@ -305,9 +305,7 @@ main {
 
 /* nav end */
 
-.logo img {
-    width: 160px;
-}
+/* logo start */
 
 .logo {
     background-image: url(../imgs/bg.jpg);
@@ -333,7 +331,7 @@ main {
         background-repeat: no-repeat;
     }
 } 
-
+/* logo end */
 /* header end */
 
 
