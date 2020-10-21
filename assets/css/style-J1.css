@@ -159,8 +159,15 @@
 
 /* articles end */
 /* single article start */
-.s-art .fa-share-alt-square {
-    font-size: 40px;
+.s-art .fa-share-alt-square,.s-art .fa-readme,.s-art .fa-download{
+    font-size: 30px;
+    margin-right: 2px;
+} 
+.s-art .fa-readme{
+    color: #ff0000;
+}
+.s-art .fa-download{
+    color: #007c00;
 }
 /* single article end */
 /* issue page start */
