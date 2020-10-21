@@ -576,7 +576,7 @@ main {
 /* latest-news page end */
 
 .latest-news .card {
-    padding-left: 10px;
+    padding: 10px;
     box-shadow: -1px 5px 4px 2px gainsboro;
 }
 
