@@ -498,6 +498,10 @@ main {
     .third-pic{
         width: 90%;
     }
+    .about-page p,.about-page img.ab1,.about-page img.ab2{
+        width: auto;
+        height: auto;
+    }
 }
 
 .third-pic h4 {
