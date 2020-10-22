@@ -220,21 +220,20 @@ main {
 
 
 /* logo start */
-
 .logo {
     background-image: url(../imgs/bg.jpg);
-    padding: 120px 0;
+    padding: 85px 0;
     background-size: cover;
 }
 
 @media (max-width: 576px) {
     .logo {
-        padding: 50px 0;
+        padding: 35px 0;
     }
 } 
 @media (min-width: 576px) and (max-width: 992px) {
     .logo {
-        padding: 80px 0;
+        padding: 55px 0;
     }
 } 
 /* logo end */
