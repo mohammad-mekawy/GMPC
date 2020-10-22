@@ -309,26 +309,18 @@ main {
 
 .logo {
     background-image: url(../imgs/bg.jpg);
-    padding: 150px 0;
+    padding: 120px 0;
     background-size: cover;
-    background-position: bottom;
 }
-@media (min-width: 992px) {
-    .logo {
-        margin-bottom: -50px;
-    }
-} 
 
 @media (max-width: 576px) {
     .logo {
-        padding: 60px 0;
-        background-repeat: no-repeat;
+        padding: 50px 0;
     }
 } 
 @media (min-width: 576px) and (max-width: 992px) {
     .logo {
-        padding: 110px 0;
-        background-repeat: no-repeat;
+        padding: 80px 0;
     }
 } 
 /* logo end */
@@ -478,17 +470,19 @@ main {
     font-size: 20px;
     font-weight: 500;
     width: 50%;
+    line-height: 1.7;
+    text-align: justify;
 }
-
-.about-page img.ab1 {
+.about-page img.ab1,.about-page img.ab2{
     width: 35%;
-    box-shadow: 4px 5px 4px 2px #333;
     border: 1px solid rgba(0,0,0,.125);
+    height: 250px;
+}
+.about-page img.ab1 {
+    box-shadow: 4px 5px 4px 2px #333;
 }
 .about-page img.ab2 {
-    width: 35%;
     box-shadow: -4px 5px 4px 2px #333;
-    border: 1px solid rgba(0,0,0,.125);
 }
 
 .third-pic {

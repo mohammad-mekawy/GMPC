@@ -111,7 +111,18 @@
 
 /* Research topics end */
 
-
+/* s-topic start */
+.s-topic .card ul{
+    padding-left: 30px;
+}
+.s-topic .card p{
+    font-size: .9rem;
+    margin-bottom: .2rem;
+}
+.s-topic .side-card{
+    margin-top: 42px;
+}
+/* s-topic end */
 /* articles start */
 
 .articles .tab-content {
