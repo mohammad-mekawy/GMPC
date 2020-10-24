@@ -24,6 +24,7 @@ body {
 }
 .main-color {
     color: var(--sec-color);
+    transition: 500ms;
 }
 main {
     background-image: url(../imgs/bg-overlay.png);
