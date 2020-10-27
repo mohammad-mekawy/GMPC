@@ -651,3 +651,23 @@ footer .social i {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--sec-color);
 }
+
+footer div.up {
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    border-radius: 50%;
+    display: none;
+    cursor: pointer;
+    z-index: 99;
+}
+
+footer div.up i {
+    color: var(--sec-color);
+    font-size: 30px;
+    text-align: center;
+    transition: 500ms;
+}
+footer div.up i:hover{
+    transform: scale(1.1) translateY(-5px);
+}
