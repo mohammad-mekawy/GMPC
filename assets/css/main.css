@@ -557,12 +557,23 @@ main.single-news {
 .single-news .fa-share-alt-square {
     font-size: 40px;
 }
+@media(min-width:992px){
+    .single-news article h5{
+        width: 70%;
+    }
+}
 
 .single-news .text-body {
     font-size: .9rem;
+    text-align: justify;
+    padding-right: 30px;
 }
 
-
+.single-news .news-pic{
+    max-width: 300px;
+    box-shadow: 3px 3px 4px 2px #333;
+    margin-bottom: 20px;
+}
 /* single news end */
 
 
