@@ -28,7 +28,7 @@ $(document).ready(function () {
     myUpButton.click(function () {
         $('html, body').animate({
             scrollTop: 0
-        }, 1000);
+        }, 500);
     });
 
 });
