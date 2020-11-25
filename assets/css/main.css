@@ -454,7 +454,7 @@ main {
 
 .journals .card:hover {
     box-shadow: -4px 5px 4px 2px transparent;
-    transform: translateY(0px);
+    transform: translate(-4px,0px);
 }
 
 .journals .card a {
