@@ -349,15 +349,16 @@ main {
 }
 .desc a.nav-link.active{
 color: var(--sec-color);
-border-bottom: 2px solid #f0f0f0;
+border-bottom: 2px solid #fff;
 margin-bottom: -2px;
-background-color: transparent;
+background-color: #fff;
 font-weight: 500;
 }
 .desc .tab-content{
     border: 2px solid #dee2e6;
     margin: 0 auto;
     border-radius: .25rem;
+    background-color: #fff;
 }
 @media(min-width:992px){
     .desc .tab-content{
