@@ -180,6 +180,9 @@
 .s-art .fa-download{
     color: #007c00;
 }
+.action-icons{
+    min-width: 110px;
+}
 /* single article end */
 /* issue page start */
 .issue article .article h5 {

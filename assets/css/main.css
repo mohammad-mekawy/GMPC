@@ -332,7 +332,29 @@ main {
     background-color: #f0f0f0;
     overflow: hidden;
 }
-
+.desc .nav-tabs{
+    border-bottom: 0px;
+}
+.desc a.nav-link{
+    color: #000;
+}
+.desc a.nav-link.active{
+color: var(--sec-color);
+border-bottom: 2px solid #f0f0f0;
+margin-bottom: -2px;
+background-color: transparent;
+font-weight: 700;
+}
+.desc .tab-content{
+    border: 2px solid #dee2e6;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: .25rem;
+}
+.desc .tab-content p{
+    font-size: 18px;
+}
+/* 
 .desc .vis-con,
 .desc .mis-con {
     height: 350px;
@@ -368,7 +390,7 @@ main {
     font-size: 20px;
     font-weight: 500;
     color: #fff;
-}
+} */
 
 /* desc end */
 
