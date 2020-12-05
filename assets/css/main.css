@@ -337,19 +337,24 @@ main {
 }
 .desc a.nav-link{
     color: #000;
+    font-size: 18px;
 }
 .desc a.nav-link.active{
 color: var(--sec-color);
 border-bottom: 2px solid #f0f0f0;
 margin-bottom: -2px;
 background-color: transparent;
-font-weight: 700;
+font-weight: 500;
 }
 .desc .tab-content{
     border: 2px solid #dee2e6;
-    width: 60%;
     margin: 0 auto;
     border-radius: .25rem;
+}
+@media(min-width:992px){
+    .desc .tab-content{
+        width: 60%;
+    }
 }
 .desc .tab-content p{
     font-size: 18px;
