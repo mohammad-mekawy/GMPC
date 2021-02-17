@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
 
     var owl1 = $('.owl-one');
     owl1.owlCarousel({
@@ -13,22 +13,21 @@ $(document).ready(function () {
         nav: true
     });
 
-    $(".tog-icon").on("click", function () {
+    $(".tog-icon").on("click", function() {
         $(this).find(".fas").toggleClass("fa-times")
     })
-    $(".vol-btn").on("click", function () {
+    $(".vol-btn").on("click", function() {
         $(this).find(".fas").toggleClass("fa-plus")
     })
     var myUpButton = $("div.up");
     $(window).scrollTop() > 120 ? myUpButton.fadeIn() : myUpButton.fadeOut();
-    $(window).on("scroll", function () {
+    $(window).on("scroll", function() {
         $(window).scrollTop() > 120 ? myUpButton.fadeIn() : myUpButton.fadeOut();
     });
 
-    myUpButton.click(function () {
+    myUpButton.click(function() {
         $('html, body').animate({
             scrollTop: 0
         }, 500);
     });
-
 });

@@ -39,6 +39,18 @@
     padding: 5px 0;
 }
 
+.Indexing img {
+    max-width: 30%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.Indexing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 
 /* Athor guidlines start */
 
@@ -72,18 +84,22 @@
 .RT .card {
     overflow: hidden;
     width: 90%;
-    margin:auto;
+    margin: auto;
     margin-bottom: 30px;
 }
-.RT .card .card-body{
+
+.RT .card .card-body {
     padding: 1rem;
 }
-.RT .card h5.card-title{
+
+.RT .card h5.card-title {
     font-size: 1.1rem;
 }
-.RT .card p{
-    font-size: .95rem;
+
+.RT .card p {
+    font-size: 0.95rem;
 }
+
 .RT .card img {
     height: 200px;
     transition: 500ms;
@@ -92,9 +108,9 @@
 .RT .card:hover img {
     transform: scale(1.1);
 }
-.RT .card:hover .btn-primary{
-    transform: translateY(-3px);
 
+.RT .card:hover .btn-primary {
+    transform: translateY(-3px);
 }
 
 .RT .btn-primary {
@@ -102,27 +118,38 @@
     border-color: var(--sec-color);
     transition: 500ms;
 }
-.RT .btn-primary:hover,.RT .btn-primary:focus{
+
+.RT .btn-primary:hover,
+.RT .btn-primary:focus {
     background-color: var(--sec-color);
     border-color: var(--sec-color);
     outline: 0px;
     box-shadow: 0 0 0 0rem;
 }
 
+
 /* Research topics end */
 
+
 /* s-topic start */
-.s-topic .card ul{
+
+.s-topic .card ul {
     padding-left: 30px;
 }
-.s-topic .card p{
-    font-size: .9rem;
-    margin-bottom: .2rem;
+
+.s-topic .card p {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
 }
-.s-topic .side-card{
+
+.s-topic .side-card {
     margin-top: 42px;
 }
+
+
 /* s-topic end */
+
+
 /* articles start */
 
 .articles .tab-content {
@@ -145,9 +172,11 @@
 .articles .nav-tabs .nav-link:hover {
     color: var(--sec-color);
 }
+
 .articles article .article h5 {
     font-size: 1.05rem;
 }
+
 .articles article .article h5 a {
     color: #000;
     margin-bottom: 10px;
@@ -155,7 +184,7 @@
 
 .articles article .article p {
     margin-bottom: 0 !important;
-    font-size: .9rem;
+    font-size: 0.9rem;
 }
 
 .articles article .article p a {
@@ -169,25 +198,39 @@
 
 
 /* articles end */
+
+
 /* single article start */
-.s-art .fa-share-alt-square,.s-art .fa-readme,.s-art .fa-download{
+
+.s-art .fa-share-alt-square,
+.s-art .fa-readme,
+.s-art .fa-download {
     font-size: 30px;
     margin-right: 2px;
-} 
-.s-art .fa-readme{
+}
+
+.s-art .fa-readme {
     color: #ff0000;
 }
-.s-art .fa-download{
+
+.s-art .fa-download {
     color: #007c00;
 }
-.action-icons{
+
+.action-icons {
     min-width: 110px;
 }
+
+
 /* single article end */
+
+
 /* issue page start */
+
 .issue article .article h5 {
     font-size: 1.05rem;
 }
+
 .issue article .article h5 a {
     color: #000;
     margin-bottom: 10px;
@@ -195,12 +238,14 @@
 
 .issue article .article p {
     margin-bottom: 0 !important;
-    font-size: .9rem;
+    font-size: 0.9rem;
 }
 
 .issue article .article p a {
     font-style: italic;
-} 
+}
+
+
 /* issue page end */
 
 
@@ -214,10 +259,12 @@
     width: 50%;
 }
 
-.resources .AR-map{
+.resources .AR-map {
     width: 80% !important;
     margin: auto;
 }
+
+
 /* resources page end */
 
 
@@ -227,7 +274,7 @@ aside .volumes {
     background-color: gainsboro;
 }
 
-aside .volumes .btn-info{
+aside .volumes .btn-info {
     background: transparent;
     border: 0px;
     width: 100%;
@@ -239,27 +286,34 @@ aside .volumes .btn-info{
     align-items: center;
     justify-content: space-between;
 }
-aside .volumes .btn-info:focus, .volumes .btn-info:not(:disabled):not(.disabled):active:focus{
+
+aside .volumes .btn-info:focus,
+.volumes .btn-info:not(:disabled):not(.disabled):active:focus {
     box-shadow: 0 0 0 0;
     background-color: transparent;
     border: 0px;
     color: var(--sec-color);
 }
-aside .volumes p.vol-btn{
+
+aside .volumes p.vol-btn {
     margin-bottom: 0;
 }
-aside .volumes .card-body{
+
+aside .volumes .card-body {
     background: transparent;
     border: 0;
     padding: 0 13px;
 }
-aside .volumes .card-body a{
+
+aside .volumes .card-body a {
     color: var(--main-color);
 }
-aside .volumes .card-body a:hover{
-text-decoration: none;
-color: var(--sec-color);
+
+aside .volumes .card-body a:hover {
+    text-decoration: none;
+    color: var(--sec-color);
 }
+
 
 /* .volumes ul li::before {
     content: "\2022";
