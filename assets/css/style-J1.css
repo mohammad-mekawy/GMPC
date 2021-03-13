@@ -261,7 +261,34 @@
 /* resources page end */
 
 
+/* editorail board start */
+
+.E-board .card {
+    border: 0px;
+}
+
+.E-board .card .rounded-circle {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    box-shadow: 0 0 0px 3px var(--sec-color);
+    transition: 500ms;
+}
+
+.E-board .card:hover .rounded-circle {
+    box-shadow: 0 0 3px 3px var(--sec-color);
+    transform: scale(1.1);
+}
+
+
+/* Editorial board end */
+
+
 /* aside  start*/
+
+aside {
+    position: sticky;
+}
 
 aside .volumes {
     background-color: gainsboro;
