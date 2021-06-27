@@ -166,27 +166,21 @@
     color: var(--sec-color);
 }
 
-.articles article .article h5 {
-    font-size: 1.05rem;
+.articles .card {
+    box-shadow: -1px 5px 4px 2px gainsboro;
+    transition: 500ms;
 }
 
-.articles article .article h5 a {
-    color: #000;
-    margin-bottom: 10px;
-}
-
-.articles article .article p {
-    margin-bottom: 0 !important;
-    font-size: 0.9rem;
+.articles .card:hover {
+    box-shadow: 0px 0px 0px 0px gainsboro;
 }
 
 .articles article .article p a {
-    color: var(--sec-color);
     font-style: italic;
 }
 
-.articles article .article .views {
-    color: var(--sec-color);
+.articles .card p {
+    font-size: 0.9rem;
 }
 
 
